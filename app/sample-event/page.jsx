@@ -79,7 +79,6 @@ const ConfigPage = () => {
           </div>
         ))}
       </div>
-      <h1 className='text-center'>Hey welcome!</h1>
     </div>
   );
 };
