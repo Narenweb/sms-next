@@ -30,7 +30,7 @@ export default function Home() {
     <div>
         <Header/>
         <div className='flex justify-center'>
-      <button onClick={openModal} className=' mt-5 bg-red-500 text-white py-2 px-6  rounded-md hover:outline hover:bg-transparent hover:text-red-500 hover:transition-all hover:duration-100 font-bold'>Add new category</button>
+      <button onClick={openModal} className=' mt-5 bg-red-500 text-white py-2 px-6  rounded-md hover:outline hover:bg-transparent hover:text-red-500 hover:transition-all hover:duration-100 font-bold'>Add new category..</button>
       </div>
 
       <CustomModal isOpen={isModalOpen} onRequestClose={closeModal} onCardCreate={handleCardCreate} />
