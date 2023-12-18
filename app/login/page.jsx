@@ -23,7 +23,7 @@ const LoginPage = () => {
     <div className="min-h-screen flex items-center justify-center flex-col">
       <Image src='/images/bird.png' alt='logo' width={138} height={38} priority="high" className='object-contain relative bottom-20 w-auto h-auto' />
       <div className="center bg-white p-8 rounded-lg shadow-lg sm:w-96 animate__animated animate__fadeIn relative bottom-20 w-11/12">
-        <h1 className="text-3xl font-bold text-center text-red-500">New Login</h1>
+        <h1 className="text-3xl font-bold text-center text-red-500">Login</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="animate__animated animate__fadeInUp">
           <TextInput
             control={control}
